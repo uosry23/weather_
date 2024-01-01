@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body class="d-flex flex-column align-items-center justify-content-center ">
+    <div class=" d-flex flex-column align-items-center mt-5 main ">
+
+        <form class=" d-flex flex-column align-items-center ">
+            <div style="width: 100%; height: 3em;" class="d-flex flex-column ">
+
+                <span id="div_time">
+
+                </span>
+                <span id="time"></span>
+            </div>
+            <input>
+            <button class="btn btn-danger mt-3"> show</button>
+        </form>
+        <div class="d-flex justify-content-evenly mt-5">
+            <img style="display: none;" width="15% " id="img">
+            <h1 id="weather">
+                please inter city name </h1>
+
+
+        </div>
+        <div class="mt-3">
+            <h5 class="text-light " style="display: inline;">
+
+            </h5>
+            <span class="bg-light rounded mb-1" style="min-width:  5px;min-height: 5px;display: inline;"></span>
+        </div>
+        <div>
+            <sapn class="text-warning fs-4 ">
+                Additional information
+            </sapn>
+        </div>
+        <div class="d-flex justify-content-around w-100">
+            <div class="d-flex flex-column align-items-center">
+                <span class="text-warning fs-4">
+                    wind speed
+                </span>
+                <span id="wind_speed" class="fs-4 text-info ">
+
+                </span>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <span class=" text-warning fs-4">
+                    humidtiy
+                </span>
+                <span class="fs-4 text-info " id="humidtiy"></span>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <span class="text-warning fs-4 ">
+                    pressure
+                </span>
+                <sapn class="fs-4 text-info " id="pressure"></sapn>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="style.jsx"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

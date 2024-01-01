@@ -1,0 +1,17 @@
+* {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body {
+  background: url(clouds-6swlqte8g6dniemk.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.deg {
+  width: 10px;
+  height: 10px;
+  background: rgb(237, 5, 5);
+  border: 50px;
+}
