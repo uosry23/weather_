@@ -11,15 +11,7 @@ let temp = document.querySelector("h5");
 let time = document.querySelector("#div_time");
 let t = document.querySelector("#time");
 btn.addEventListener("click", () => {
-  fetch(
-    `https://api.teleport.org/api/urban_areas/slug:${inp.value.toLowerCase()}/images/`
-  )
-    .then((t) => {
-      return t.json();
-    })
-    .then((imgs) => {
-      //    console.log(imgs);
-      // console.log(imgs.message);
+ 
       fetch(
         `https://api.openweathermap.org/data/2.5/weather?q=${inp.value.toLowerCase()}&units=metric&appid=09cf2b1b4ab7f5636d5eef8d4c561acd`
       )
@@ -74,7 +66,6 @@ btn.addEventListener("click", () => {
 
                   // console.log(z
                   //     );
-                });
             } else {
               document.body.style.backgroundImage = `url(clouds-6swlqte8g6dniemk.jpg)`;
               document.body.style.backgroundRepeat = "no-repeat";
